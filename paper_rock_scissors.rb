@@ -11,6 +11,14 @@
 #computer = s and you = r you win
 #computer = r and you = r tie!
 
+#CHOICES = {'p' => 'Paper', 'r' => 'Rock', 's' => 'Scissors'}
+
+#begin
+#   puts "pick one: (p, r, s):"
+#    player_inpus = gets.chomp.downcase
+# end until CHOICES.keys.include?(player_input)
+# choices.keys.sample
+
 require 'pry'
 
 def rand_choice
